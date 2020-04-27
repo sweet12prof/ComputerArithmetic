@@ -5,11 +5,11 @@
   * The datapath consists of a multiplicand and a product register.
   * The product register has twice the length of an operand to accomodate multiply operations.
   * The operation of the algorithm can be summarized into the following steps
-      ** Initialisation
-      ** LSB TEST
-      ** Add 
-      ** Shift
-      ** Finish
+      * Initialisation
+      * LSB TEST
+      * Add 
+      * Shift
+      * Finish
    * In the first stage the multiplier is loaded into the right half of the product register and Count initialised to 0
    * Next, Check if Count is equal to the size of an operand. If yes, we are done! 
      If not then, if the LSB of that register is '1' then proceed to stage 3 else stage 4. 
