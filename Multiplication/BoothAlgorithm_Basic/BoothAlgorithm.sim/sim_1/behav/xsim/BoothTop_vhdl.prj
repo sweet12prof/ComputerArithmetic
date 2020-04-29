@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BoothAlgorithm.srcs/sources_1/new/BoothControl.vhd" \
+"../../../../BoothAlgorithm.srcs/sources_1/new/BoothDatapath.vhd" \
+"../../../../BoothAlgorithm.srcs/sources_1/new/BoothQ.vhd" \
+"../../../../../../../2ISSP_v2/TwoIssueSuperscalar_v2.srcs/sources_1/new/CLA32Adder.vhd" \
+"../../../../../AddShiftMultiplication/AddShiftMultiplication.srcs/sources_1/new/CLA64.vhd" \
+"../../../../../AddShiftMultiplication/AddShiftMultiplication.srcs/sources_1/new/Counter.vhd" \
+"../../../../BoothAlgorithm.srcs/sources_1/new/ProductReg.vhd" \
+"../../../../../AddShiftMultiplication/AddShiftMultiplication.srcs/sources_1/new/mux2.vhd" \
+"../../../../BoothAlgorithm.srcs/sources_1/new/BoothTop.vhd" \
+
+# Do not sort compile order
+nosort

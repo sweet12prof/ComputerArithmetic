@@ -44,7 +44,7 @@ end counter;
 architecture behavioral of counter is 
 signal CountSig :  std_logic_vector(5 downto 0);
     begin 
-        process(clk, reset) 
+        process(clk, reset, countReset) 
             begin   
                 if(reset = '1' or countReset = '1') then 
                    countSIg <= (others => '0');
